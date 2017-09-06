@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#428b95</color>
+    <color name="colorPrimaryDark">#428b95</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#428b95</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colortransparent">#00000000</color>
+    <color name="colorFacebook">#002157</color>
+    <color name="colorGrey">#cccccc</color>
+    <color name="colorGreytext">#898989</color>
+    <color name="colorGreyTextDark">#FF757575</color>
+    <color name="colorGreydark">#3e3f3d</color>
+    <color name="colorRed">#f91735</color>
+    <color name="colorLightRed">#ee6477</color>
+    <color name="color_divider_line_color">#ECEFF1</color>
+
+    <!--Calender colors-->
+    <color name="normal_day">#ff999999</color>
+    <color name="selected_day_background">#E75F49</color>
+    <color name="selected_day_text">#fff2f2f2</color>
+</resources>
