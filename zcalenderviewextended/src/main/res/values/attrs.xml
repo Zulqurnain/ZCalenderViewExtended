@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZCalenderView">
+        <attr name="colorCurrentDayText" format="color"/>
+        <attr name="colorCurrentDayCircle" format="color"/>
+        <attr name="colorSelectedDayBackground" format="color"/>
+        <attr name="colorSelectedDayText" format="color"/>
+        <attr name="colorPreviousDay" format="color"/>
+        <attr name="colorNormalDay" format="color" />
+        <attr name="colorMonthName" format="color" />
+        <attr name="colorDayName" format="color" />
+        <attr name="textSizeDay" format="dimension"/>
+        <attr name="textSizeMonth" format="dimension" />
+        <attr name="textSizeDayName" format="dimension" />
+        <attr name="headerMonthHeight" format="dimension" />
+        <attr name="selectedDayRadius" format="dimension" />
+        <attr name="calendarHeight" format="dimension" />
+        <attr name="enablePreviousDay" format="boolean" />
+        <attr name="currentDaySelected" format="boolean" />
+        <attr name="drawRoundRect" format="boolean" />
+        <attr name="firstMonth" format="enum">
+            <enum name="january" value="0" />
+            <enum name="february" value="1" />
+            <enum name="march" value="2" />
+            <enum name="april" value="3" />
+            <enum name="may" value="4" />
+            <enum name="june" value="5" />
+            <enum name="july" value="6" />
+            <enum name="august" value="7" />
+            <enum name="september" value="8" />
+            <enum name="october" value="9" />
+            <enum name="november" value="10" />
+            <enum name="december" value="11" />
+        </attr>
+        <attr name="lastMonth" format="enum">
+            <enum name="january" value="0" />
+            <enum name="february" value="1" />
+            <enum name="march" value="2" />
+            <enum name="april" value="3" />
+            <enum name="may" value="4" />
+            <enum name="june" value="5" />
+            <enum name="july" value="6" />
+            <enum name="august" value="7" />
+            <enum name="september" value="8" />
+            <enum name="october" value="9" />
+            <enum name="november" value="10" />
+            <enum name="december" value="11" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="WeekCalendar">
+        <attr name="numOfPages" format="integer"/>
+        <attr name="firstDayOfWeek" format="integer"/>
+        <attr name="daysTextSize" format="dimension"/>
+        <attr name="weekDaysTextColor" format="color"/>
+        <attr name="daysTextColor" format="color"/>
+        <attr name="daysBackgroundColor" format="color"/>
+        <attr name="weekTextSize" format="dimension"/>
+        <attr name="weekTextColor" format="color"/>
+        <attr name="weekBackgroundColor" format="color"/>
+        <attr name="selectedBgColor" format="color"/>
+        <attr name="todaysDateBgColor" format="color"/>
+        <attr name="dayNameLength">
+            <enum name="singleLetter" value="0"/>
+            <enum name="threeLetters" value="1"/>
+        </attr>
+        <attr name="hideNames"  format="boolean"/>
+
+        <!-- danigarciaalva -->
+        <attr name="todaysDateTextColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="WeekView">
+        <attr name="firstDayOfWeekAlam" format="enum">
+            <enum name="sunday" value="1"/>
+            <enum name="monday" value="2"/>
+            <enum name="tuesday" value="3"/>
+            <enum name="wednesday" value="4"/>
+            <enum name="thursday" value="5"/>
+            <enum name="friday" value="6"/>
+            <enum name="saturday" value="7"/>
+        </attr>
+        <attr name="hourHeightAlam" format="dimension"/>
+        <attr name="minHourHeightAlam" format="dimension"/>
+        <attr name="maxHourHeightAlam" format="dimension"/>
+        <attr name="textSizeAlam" format="dimension"/>
+        <attr name="eventTextSizeAlam" format="dimension"/>
+        <attr name="headerColumnPaddingAlam" format="dimension"/>
+        <attr name="headerRowPaddingAlam" format="dimension"/>
+        <attr name="columnGapAlam" format="dimension"/>
+        <attr name="headerColumnTextColorAlam" format="color"/>
+        <attr name="noOfVisibleDaysAlam" format="integer"/>
+        <attr name="showFirstDayOfWeekFirstAlam" format="boolean"/>
+        <attr name="headerRowBackgroundColorAlam" format="color"/>
+        <attr name="dayBackgroundColorAlam" format="color"/>
+        <attr name="hourSeparatorColorAlam" format="color"/>
+        <attr name="todayBackgroundColorAlam" format="color"/>
+        <attr name="todayHeaderTextColorAlam" format="color"/>
+        <attr name="hourSeparatorHeightAlam" format="dimension"/>
+        <attr name="eventTextColorAlam" format="color"/>
+        <attr name="eventPaddingAlam" format="dimension"/>
+        <attr name="headerColumnBackgroundAlam" format="color"/>
+        <attr name="dayNameLengthAlam" format="enum">
+            <enum name="length_short" value="1"/>
+            <enum name="length_long" value="2"/>
+        </attr>
+        <attr name="overlappingEventGapAlam" format="dimension"/>
+        <attr name="eventMarginVerticalAlam" format="dimension"/>
+        <attr name="xScrollingSpeedAlam" format="float"/>
+        <attr name="eventCornerRadiusAlam" format="dimension"/>
+        <attr name="showDistinctPastFutureColorAlam" format="boolean"/>
+        <attr name="showDistinctWeekendColorAlam" format="boolean"/>
+        <attr name="futureBackgroundColorAlam" format="color"/>
+        <attr name="pastBackgroundColorAlam" format="color"/>
+        <attr name="futureWeekendBackgroundColorAlam" format="color"/>
+        <attr name="pastWeekendBackgroundColorAlam" format="color"/>
+        <attr name="showNowLineAlam" format="boolean"/>
+        <attr name="nowLineColorAlam" format="color"/>
+        <attr name="nowLineThicknessAlam" format="dimension"/>
+        <attr name="horizontalFlingEnabledAlam" format="boolean"/>
+        <attr name="verticalFlingEnabledAlam" format="boolean"/>
+        <attr name="allDayEventHeightAlam" format="dimension"/>
+        <attr name="scrollDurationAlam" format="integer"/>
+    </declare-styleable>
+</resources>
