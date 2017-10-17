@@ -176,7 +176,7 @@ public class ZCalenderView extends RecyclerView
      */
     public void setEventsHashMap(HashMap<SimpleMonthAdapter.CalendarDay, Integer> countMap) {
         mAdapter.setCountMap(countMap);
-        this.invalidate();
+        setUpAdapter();
     }
 
     protected DatePickerController getController()
