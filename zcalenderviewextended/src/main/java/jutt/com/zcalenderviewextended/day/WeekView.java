@@ -45,10 +45,7 @@ import jutt.com.zcalenderviewextended.R;
 
 import static jutt.com.zcalenderviewextended.day.WeekViewUtil.*;
 
-/**
- * Created by Raquib-ul-Alam Kanak on 7/21/2014.
- * Website: http://alamkanak.github.io/
- */
+
 public class WeekView extends View {
 
     private enum Direction {
@@ -146,7 +143,7 @@ public class WeekView extends View {
     private boolean mVerticalFlingEnabled = true;
     private int mAllDayEventHeight = 100;
     private int mScrollDuration = 250;
-    private boolean mHorizontalScrollEnabled = true;
+    private boolean mHorizontalScrollEnabled = false;
 
     // Listeners.
     private EventClickListener mEventClickListener;
