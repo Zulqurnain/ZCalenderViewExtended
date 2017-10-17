@@ -6,10 +6,7 @@ import java.util.List;
 
 import static jutt.com.zcalenderviewextended.day.WeekViewUtil.*;
 
-/**
- * Created by Raquib-ul-Alam Kanak on 7/21/2014.
- * Website: http://april-shower.com
- */
+
 public class WeekViewEvent {
     private long mId;
     private Calendar mStartTime;
