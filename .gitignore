@@ -2,8 +2,7 @@
 .gradle/
 build/
 ExtendedSample.iml
-/*.iml
-/.idea/*
+app/*.iml
 
 # Local configuration file (sdk path, etc)
 local.properties
